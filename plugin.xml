@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+	<version>1.0.0</version>
+	<copyright>Enbit</copyright>
+	<link>http://www.enbit.de/</link>
+	<author>Enbit</author>
+	<description lang="en">Check Autocomplete and Missing Alias Issue in Store Combobox after the changes heir https://github.com/shopware/shopware/pull/699</description>
+	<compatibility minVersion="5.2.10" />
+</plugin>

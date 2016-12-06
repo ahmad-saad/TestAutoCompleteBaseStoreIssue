@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element scope="shop" type="combo">
+            <name>countries</name>
+            <label>Countries:</label>
+			<options>
+				<valueField>id</valueField>
+				<displayField>name</displayField>
+				<triggerAction>all</triggerAction>
+				<store>Shopware.apps.Base.store.Country</store>
+				<multiSelect>1</multiSelect>
+			</options>
+        </element>
+        <element scope="shop" type="combo">
+            <name>order_status</name>
+            <label>order status:</label>
+            <options>
+                <valueField>id</valueField>
+                <displayField>name</displayField>
+                <triggerAction>all</triggerAction>
+                <store>Shopware.apps.Base.store.OrderStatus</store>
+                <multiSelect>1</multiSelect>
+            </options>
+        </element>
+        <element type="combo" required="true">
+            <name>payment_status</name>
+            <label>payment status:</label>
+			<options>
+				<valueField>id</valueField>
+				<displayField>name</displayField>
+				<triggerAction>all</triggerAction>
+				<store>Shopware.apps.Base.store.PaymentStatus</store>
+			</options>
+        </element>
+        <element type="combo" required="true">
+            <name>tax</name>
+            <label>Taxes:</label>
+            <options>
+                <valueField>id</valueField>
+                <displayField>name</displayField>
+                <triggerAction>all</triggerAction>
+                <store>Shopware.apps.Base.store.Tax</store>
+            </options>
+        </element>
+    </elements>
+</config>
