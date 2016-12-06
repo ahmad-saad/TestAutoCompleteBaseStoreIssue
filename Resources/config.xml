@@ -34,15 +34,5 @@
 				<store>Shopware.apps.Base.store.PaymentStatus</store>
 			</options>
         </element>
-        <element type="combo" required="true">
-            <name>tax</name>
-            <label>Taxes:</label>
-            <options>
-                <valueField>id</valueField>
-                <displayField>name</displayField>
-                <triggerAction>all</triggerAction>
-                <store>Shopware.apps.Base.store.Tax</store>
-            </options>
-        </element>
     </elements>
 </config>
